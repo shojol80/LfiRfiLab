@@ -55,8 +55,8 @@
           <h1 class="my-4">Vulnerabilities</h1>
           <div class="list-group">
             <a href="vulnerabilities/lfi/index.php" class="list-group-item">Local File Inclusion</a>
-            <a href="/vulnerabilities/rfi/" class="list-group-item">Remote File Inclusion</a>
-            <a href="#" class="list-group-item">Cross Site Scripting</a>
+            <a href="vulnerabilities/rfi/index.php" class="list-group-item">Remote File Inclusion</a>
+            <a href="#" class="list-group-item">File Extention Bypass</a>
           </div>
 
         </div>
@@ -95,13 +95,13 @@
 
             <div class="col-lg-4 col-md-6 mb-4">
               <div class="card h-100">
-                <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+                <a href="#"><img class="card-img-top" src="pic/anonymous.jpg" alt=""></a>
                 <div class="card-body">
                   <h4 class="card-title">
-                    <a href="#">Item One</a>
+                    <a href="http://anonhq.com/">Anonymous Official</a>
                   </h4>
-                  <h5>$24.99</h5>
-                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!</p>
+                  <h5>We Don't Forget</h5>
+                  <p class="card-text">Anonymous is a loosely associated international network of activist and hacktivist entities. A website nominally associated with the group describes it as "an Internet gathering" with "a very loose and decentralized command structure that operates on ideas rather than directives".</p>
                 </div>
                 <div class="card-footer">
                   <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
@@ -111,13 +111,13 @@
 
             <div class="col-lg-4 col-md-6 mb-4">
               <div class="card h-100">
-                <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+                <a href="#"><img class="card-img-top" src="pic/defcon.jpg" alt=""></a>
                 <div class="card-body">
                   <h4 class="card-title">
-                    <a href="#">Item Two</a>
+                    <a href="https://www.defcon.org/">Defcon</a>
                   </h4>
-                  <h5>$24.99</h5>
-                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur! Lorem ipsum dolor sit amet.</p>
+                  <h5>Hacking Conference</h5>
+                  <p class="card-text">DEF CON is one of the world's largest hacker conventions, held annually in Las Vegas, Nevada, with the first DEF CON taking place in June 1993.</p>
                 </div>
                 <div class="card-footer">
                   <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
@@ -127,13 +127,13 @@
 
             <div class="col-lg-4 col-md-6 mb-4">
               <div class="card h-100">
-                <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+                <a href="#"><img class="card-img-top" src="pic/hackforum.png" alt=""></a>
                 <div class="card-body">
                   <h4 class="card-title">
-                    <a href="#">Item Three</a>
+                    <a href="https://hackforums.net/">Hack Forums</a>
                   </h4>
-                  <h5>$24.99</h5>
-                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!</p>
+                  <h5>Hackers Community</h5>
+                  <p class="card-text">Hack Forums is the ultimate security technology and social media forum.</p>
                 </div>
                 <div class="card-footer">
                   <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
@@ -143,13 +143,13 @@
 
             <div class="col-lg-4 col-md-6 mb-4">
               <div class="card h-100">
-                <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+                <a href="#"><img class="card-img-top" src="pic/bugsbd.png" alt=""></a>
                 <div class="card-body">
                   <h4 class="card-title">
-                    <a href="#">Item Four</a>
+                    <a href="http://bugsbd.com">Bugs BD</a>
                   </h4>
-                  <h5>$24.99</h5>
-                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!</p>
+                  <h5>Be Secure</h5>
+                  <p class="card-text">Your Cyber Security Partner</p>
                 </div>
                 <div class="card-footer">
                   <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
@@ -159,13 +159,13 @@
 
             <div class="col-lg-4 col-md-6 mb-4">
               <div class="card h-100">
-                <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+                <a href="#"><img class="card-img-top" src="pic/sqliwiki.png" alt=""></a>
                 <div class="card-body">
                   <h4 class="card-title">
-                    <a href="#">Item Five</a>
+                    <a href="http://forum.sqliwiki.com">SQL Injection Forum </a>
                   </h4>
-                  <h5>$24.99</h5>
-                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur! Lorem ipsum dolor sit amet.</p>
+                  <h5>Hacking & Exploit Tutorial - SQLiWiki</h5>
+                  <p class="card-text">The hands-on approach to computer security. Learn how hackers break in, and how to keep them out. Please register to benefit from extra features and our simulated security challenges.When you share your knowledge with us , you can also learn something new... Keep Sharing and be Active , Spread your knowledge and help each other</p>
                 </div>
                 <div class="card-footer">
                   <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
@@ -175,13 +175,61 @@
 
             <div class="col-lg-4 col-md-6 mb-4">
               <div class="card h-100">
-                <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+                <a href="#"><img class="card-img-top" src="pic/blackhat.png" alt=""></a>
                 <div class="card-body">
                   <h4 class="card-title">
-                    <a href="#">Item Six</a>
+                    <a href="https://www.blackhat.com">BlackHat USA</a>
                   </h4>
-                  <h5>$24.99</h5>
-                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!</p>
+                  <h5>Join in Conference Now</h5>
+                  <p class="card-text">Black Hat is typically scheduled prior to DEF CON with many attendees going to both conferences. Black Hat has been perceived by the security industry as a more corporate security conference whereas DEF CON is more informal.</p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 mb-4">
+              <div class="card h-100">
+                <a href="#"><img class="card-img-top" src="pic/isacadhaka.png" alt=""></a>
+                <div class="card-body">
+                  <h4 class="card-title">
+                    <a href="https://www.isaca.org/pages/default.aspx">ISACA</a>
+                  </h4>
+                  <h5>Get Certified</h5>
+                  <p class="card-text">ISACA is an international professional association focused on IT governance. On its IRS filings, it is known as the Information Systems Audit and Control Association, although ISACA now goes by its acronym only.</p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 mb-4">
+              <div class="card h-100">
+                <a href="#"><img class="card-img-top" src="pic/eccouncil.jpg" alt=""></a>
+                <div class="card-body">
+                  <h4 class="card-title">
+                    <a href="https://www.eccouncil.org">EC-Council</a>
+                  </h4>
+                  <h5>Get Certified</h5>
+                  <p class="card-text">EC-Council is a global leader in InfoSec Cyber Security certification programs like Certified Ethical Hacker and Computer Hacking Forensic Investigator.</p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 mb-4">
+              <div class="card h-100">
+                <a href="#"><img class="card-img-top" src="pic/hackerone.png" alt=""></a>
+                <div class="card-body">
+                  <h4 class="card-title">
+                    <a href="https://hackerone.com">HackerOne</a>
+                  </h4>
+                  <h5>Bug Bounty Program</h5>
+                  <p class="card-text">HackerOne is a vulnerability coordination and bug bounty platform that connects businesses with cybersecurity researchers</p>
                 </div>
                 <div class="card-footer">
                   <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
@@ -204,7 +252,9 @@
     <!-- Footer -->
     <footer class="py-5 bg-dark">
       <div class="container">
-        <p class="m-0 text-center text-white">Copyright &copy; Your Website 2017</p>
+        <p class="m-0 text-center text-white">Copyright © BUGS | BD <br/>
+          Your Cyber Security Partner
+        </p>
       </div>
       <!-- /.container -->
     </footer>
