@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Homepage</title>
+    <title>Remote File Inclusion</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -57,8 +57,8 @@
 
           <h1 class="my-4">Vulnerabilities</h1>
           <div class="list-group">
-            <a href="#" class="list-group-item">Local File Inclusion</a>
-            <a href="../rfi/index.php" class="list-group-item">Remote File Inclusion</a>
+            <a href="../lfi/index.php" class="list-group-item">Local File Inclusion</a>
+            <a href="#" class="list-group-item">Remote File Inclusion</a>
             <a href="#" class="list-group-item">Cross Site Scripting</a>
           </div>
 
@@ -100,12 +100,12 @@
 
 
             <div class="col-lg-4 col-md-6 mb-4">
-              <h1>Local File Inclusion</h1>
+              <h1>Remote File Inclusion</h1>
               
                 <div class="card-footer">
                   <?php
                   
-                    include_once 'lfi.php';
+                    include_once 'rfi.php';
 
                   ?>
                 </div>
